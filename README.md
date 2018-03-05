@@ -33,6 +33,10 @@ Maps": [
 I have used similar structure for my project.
 I have loaded Json file into a variable and  access the data as python dict or list. 
 Here in this example, we mostly deal with lists which have key value pairs.So, I considered using Maps as a list with Countries as key value pair.Again Countries is a list of states considered as key value pairs . Each State is a list of key value pairs of their names and population.
+Added Class structures and to improve the code by avoiding redundancy and repetitions in the code.
+Used Flask to convert the CLI to Web app.
+Using SqlAlchemy to create models 
+
 
 References:
 https://docs.python.org/3.5/tutorial/index.html
@@ -41,7 +45,7 @@ Using Python to access Web Data-Coursera
 https://www.safaribooksonline.com/library/view/python-cookbook-3rd/9781449357337/ch06s02.html
 Python programming tutorials -Socratica in youtube
 
-Future Enhancements:
-Adding Class structures and to improve the code by avoiding redundancy and repetitions in the code.
-Use Flask to convert the CLI to Web app.
+Future Tasks:
+Integration of models with UI.
+
 
